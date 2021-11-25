@@ -1,0 +1,74 @@
+.App {
+  border: 2px solid red;
+}
+
+/* AppBar*/
+.HeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+}
+
+.NavLink{
+  font-size: 18px;
+  color: #000;
+  text-decoration: none;
+}
+
+.NavLink:not(:last-child){
+  margin-right: 10px;
+}
+
+.NavLink:focus, .NavLink:hover{
+  text-decoration: underline;
+}
+
+.NavLinkAct {
+  color: red;
+}
+
+.AuthNav{
+  color: #000;
+  text-decoration: none;
+}
+
+.AuthNav:not(:last-child){
+  margin-right: 10px;
+}
+
+.UserMenu{
+  display: flex;
+}
+
+.UserMenuText{
+  margin-right: 20px;
+}
+
+/*ContactView*/
+.Contact{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-items: flex-start
+}
+
+/* LoginView RegisterView*/
+  .View {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ViewForm {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+  }
+
+  .ViewLabel{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
