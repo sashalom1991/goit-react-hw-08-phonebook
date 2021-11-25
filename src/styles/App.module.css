@@ -1,6 +1,6 @@
-.App {
+/* .App {
   border: 2px solid red;
-}
+} */
 
 /* AppBar*/
 .HeaderContainer {
@@ -64,7 +64,7 @@
   .ViewForm {
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 300px;
   }
 
   .ViewLabel{
